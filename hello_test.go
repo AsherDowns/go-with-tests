@@ -29,7 +29,6 @@ func TestHello(t *testing.T) {
 		got := hello("Elodie", "Korean")
 		want := "Annyeonghaseyo, Elodie"
 		assertCorrectMessage(t, got, want)
-
 	})
 }
 
